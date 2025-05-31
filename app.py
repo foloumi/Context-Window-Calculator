@@ -1,3 +1,11 @@
+"""
+Streamlit web application for estimating the maximum context window for LLMs.
+
+This application allows users to input system hardware parameters (VRAM, number of GPUs),
+model architectural details (number of layers, heads, head dimension), and vLLM
+specific configurations to calculate an estimated maximum context window in tokens.
+It can fetch model parameters directly from Hugging Face model names.
+"""
 # app.py
 import streamlit as st
 from calculator_logic import calculate_max_context_window, fetch_hf_model_params, ModelNotFoundError, ConfigAttributeMissingError

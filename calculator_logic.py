@@ -1,3 +1,12 @@
+"""
+Core logic for calculating LLM context window estimations and fetching model parameters.
+
+This module provides functions to:
+- Determine the byte size per element for KV cache based on precision.
+- Calculate the maximum estimated context window given system and model parameters.
+- Fetch architectural parameters (layers, heads, dimensions) for a given
+  Hugging Face model name.
+"""
 # calculator_logic.py
 from transformers import AutoConfig
 
