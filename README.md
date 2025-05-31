@@ -31,7 +31,6 @@ streamlit run app.py
 -   `app.py`: Main application file (likely Streamlit).
 -   `calculator_logic.py`: Contains the core logic for calculations.
 -   `requirements.txt`: Lists project dependencies.
--   `vllm_enhancement_plan.md`: Document outlining plans for VLLM enhancement and integration.
 
 ## Contributing
 
